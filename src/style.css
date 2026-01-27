@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* This is the v4 way to define your brand colors */
+  --color-primary: #d57b07;
+  --color-copper: #B87333;
+  --color-midnight: #101820;
+  --color-industrial-surface: #1A1A1A;
+  
+  /* Adding your custom fonts here too */
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Noto Sans", sans-serif;
+}
+
+/* KEEP YOUR CUSTOM ANIMATIONS BELOW THIS LINE */
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: rgba(213, 123, 7, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  animation: scan 4s linear infinite;
+}
+
+@keyframes scan {
+  0% { top: -2px; }
+  100% { top: 100%; }
+}

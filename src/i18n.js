@@ -4,12 +4,16 @@ const messages = {
   en: {
     welcome: 'Atlalli',
     access_granted: 'ACCESS GRANTED',
-    videos: 'LATEST VIDEOS'
+    videos: 'LATEST VIDEOS',
+    NowStreaming: 'Now Streaming',
+    UndergroundBars: 'Cozy bars'
   },
   es: {
     welcome: 'Atlalli',
     access_granted: 'ACCESO CONCEDIDO',
-    videos: 'ÚLTIMOS VIDEOS'
+    videos: 'ÚLTIMOS VIDEOS',
+    NowStreaming: 'Transmitiendo Ahora',
+    UndergroundBars: 'Bares acogedores'
   }
 }
 

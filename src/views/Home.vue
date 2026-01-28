@@ -11,7 +11,7 @@ const { nearestBars } = useBars()
 
     <section class="mt-6 px-0">
       <div class="px-6 flex items-baseline justify-between mb-4">
-        <h3 class="text-2xl font-bold tracking-tighter text-white uppercase drop-shadow-sm italic">Now Streaming</h3>
+        <h3 class="text-2xl font-bold tracking-tighter text-white uppercase drop-shadow-sm italic">{{ $t('NowStreaming') }}</h3>
         <span class="text-xs text-secondary font-mono uppercase tracking-widest animate-pulse">{{ $t('videos') }}</span>
       </div>
       <div class="flex overflow-x-auto gap-4 px-6 pb-6 hide-scrollbar snap-x snap-mandatory">
@@ -30,8 +30,7 @@ const { nearestBars } = useBars()
             </div>
           </div>
           <div class="mt-3">
-            <p class="text-sm font-bold text-white truncate group-hover:text-primary transition-colors">Underground Jazz
-              Sessions</p>
+            <p class="text-sm font-bold text-white truncate group-hover:text-primary transition-colors">{{ $t('UndergroundBars') }}</p>
             <p class="text-xs text-white/50 truncate">Blue Note Basement • 1.2k watching</p>
           </div>
         </div>
